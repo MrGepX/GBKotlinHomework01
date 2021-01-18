@@ -34,21 +34,18 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun setQuestion() {
-
         mSelectedOptionPosition = ANSWER_NOT_CHOOSE
         val question: Question = mQuestionsList[mCurrentPosition - 1]
 
         defaultOptionsView()
 
-
         submit_button.text = resources.getString(R.string.submit_button_text)
-
 
         progressBar.progress = mCurrentPosition
         progressBar.max = mQuestionsList.size
         tv_progress.text = "$mCurrentPosition" + " / " + mQuestionsList.size
 
-        tv_question.text = question!!.question
+        tv_question.text = question.question
         button_option_one.text = question.optionOne
         button_option_two.text = question.optionTwo
         button_option_three.text = question.optionThree
