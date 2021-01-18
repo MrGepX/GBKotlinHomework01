@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GBKotlinHomework01</string>
+    <string name="application_name">Тест на знание ООП и Java</string>
+    <string name="enter_login_text">Введите логин</string>
+    <string name="login_hint">Введите текст</string>
+    <string name="login_button_text">Нажмите сюда, чтобы начать</string>
+
+    <string name="text_stub">текстовая заглушка</string>
+    
+    <string name="hint_if_login_input_empty">Пожалуйста, введите логин</string>
+    <string name="hint_on_login">Авторизация успешна</string>
+
+    <string name="submit_button_text">Отправить ответ</string>
+    <string name="next_question_text">Следующий вопрос</string>
+    <string name="finish_button_text">Закончить тест</string>
+    <string name="choose_answer_hint">Пожалуйста, выберите ответ</string>
+
+    <string name="result_title">Спасибо за прохождение теста</string>
+    <string name="result_subtitle"></string>
+    <string name="you_result_text">Ваши результаты:</string>
+    <string name="correct_answers">правильных ответов!</string>
+
+</resources>
